@@ -1,0 +1,33 @@
+@import 'variables';
+
+.app{    
+      width: 100%; 
+      background-color: black;
+      color: rgb(255, 255, 255);
+      padding: 10px;
+}
+.app__container{   
+     position: fixed; 
+     z-index: 10000000;
+      width: 100%;
+      padding: 10px 10px; 
+      // border: 1px solid rgb(202, 29, 29);
+      max-width: 1400px;  
+      margin: 0 auto;   
+      background-color: $mainBlack;
+}
+// @media (max-width: 400px) {
+//   .row {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+} 
+.col{
+    margin: 10px;
+} 
+ 

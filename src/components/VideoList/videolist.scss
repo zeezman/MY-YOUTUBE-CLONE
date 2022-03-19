@@ -1,0 +1,30 @@
+.recipe-card{
+    display: flex;
+    width: 100%; 
+    max-width: 700px; 
+    // background-color: aqua;
+    border: 2px solid rgb(127, 212, 29);
+    padding: 3px;     
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.text{
+    background-color: aqua;
+    // display: flex;
+    // flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+    // padding: 1px;
+}
+h3{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 1rem;
+    color: white;
+} 
